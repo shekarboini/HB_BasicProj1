@@ -20,7 +20,7 @@ public static void main(String[] args) {
       
     //creating transaction object  
     Transaction t=session.beginTransaction();  
-          
+     //prog     
     Employee e1=new Employee();  
     e1.setId(115);  
     e1.setFirstName("sonoo");  
