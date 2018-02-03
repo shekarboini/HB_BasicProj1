@@ -7,7 +7,7 @@ import org.hibernate.cfg.Configuration;
 
 public class App {  
 public static void main(String[] args) {  
-      
+      System.out.println("Main method(): Start");
     //creating configuration object  
     Configuration cfg=new Configuration();  
     cfg.configure("hibernate.cfg.xml");//populates the data of the configuration file  
@@ -32,6 +32,6 @@ public static void main(String[] args) {
     session.close();  
       
     System.out.println("successfully saved");  
-      
+      System.out.println("Main method(): End");
 }  
 } 
